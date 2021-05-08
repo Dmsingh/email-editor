@@ -1,6 +1,9 @@
 {
   "name": "with-mongodb",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
