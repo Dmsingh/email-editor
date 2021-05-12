@@ -65,7 +65,7 @@ const Example = ({ note }) => {
           </div>
 
           <React.StrictMode>
-            <EmailEditor ref={emailEditorRef} onLoad={onLoad} />
+           {/*   <EmailEditor ref={emailEditorRef} onLoad={onLoad} /> */}
           </React.StrictMode>
         </div>
       ) : null}
