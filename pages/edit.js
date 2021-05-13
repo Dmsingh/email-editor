@@ -131,7 +131,7 @@ const Example = ({ note }) => {
 
 export default Example;
 Example.getInitialProps = async () => {
-  const res = await fetch(`https://email-editor-oniafy5pf-dmsingh.vercel.app/api/email`);
+  const res = await fetch(`https://email-editor.vercel.app/api/email`);
   const { data } = await res.json();
 
   return { note: data };
