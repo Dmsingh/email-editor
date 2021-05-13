@@ -18,7 +18,7 @@ const Example = ({ note }) => {
 
   const createNote = async (design) => {
     try {
-      const res = await fetch("hhttps://email-editor-oniafy5pf-dmsingh.vercel.app/api/email", {
+      const res = await fetch("hhttps://email-editor.vercel.app/api/email", {
         method: "PUT",
         headers: {
           Accept: "application/json",
