@@ -35,7 +35,7 @@ const Example = ({ note }) => {
     console.log(note.emailtemp, sample);
     const temp = JSON.parse(note.emailtemp);
 
-  
+    alert(temp)
     emailEditorRef.current.editor.loadDesign(temp);
     
   };
