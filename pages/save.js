@@ -37,7 +37,7 @@ const Example = ({ note }) => {
 
     if (render == true) {
       try {
-        //emailEditorRef.current.editor.loadDesign();
+        emailEditorRef.current.editor.loadDesign(temp);
       } catch (error) {
         window.location.reload();
       }
