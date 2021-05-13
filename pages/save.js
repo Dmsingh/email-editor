@@ -35,8 +35,14 @@ const Example = ({ note }) => {
     console.log(note.emailtemp, sample);
     const temp = JSON.parse(note.emailtemp);
 
-    alert(temp)
-    emailEditorRef.current.editor.loadDesign(temp);
+    if (render == true) {
+      try {
+        emailEditorRef.current.editor.loadDesign();
+      } catch (error) {
+        window.location.reload();
+      }
+    }
+  };
     
   };
   return (
