@@ -43,8 +43,6 @@ const Example = ({ note }) => {
       }
     }
   };
-    
- 
   return (
     <div className="container">
       {render ? (
@@ -67,7 +65,7 @@ const Example = ({ note }) => {
           </div>
 
           <React.StrictMode>
-       <EmailEditor ref={emailEditorRef} onLoad={onLoad} />
+            <EmailEditor ref={emailEditorRef} onLoad={onLoad} />
           </React.StrictMode>
         </div>
       ) : null}
@@ -111,7 +109,7 @@ const Example = ({ note }) => {
 
 export default Example;
 Example.getInitialProps = async () => {
-  const res = await fetch(`https://email-editor.vercel.app/api/email`);
+  const res = await fetch(`http://localhost:3000/api/email`);
   const { data } = await res.json();
 
   return { note: data };
