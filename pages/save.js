@@ -44,7 +44,7 @@ const Example = ({ note }) => {
     }
   };
     
-  };
+ 
   return (
     <div className="container">
       {render ? (
