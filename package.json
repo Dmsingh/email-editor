@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "edit-json-file": "^1.6.0",
-    "fs": "*",
+    
     "mongodb": "^3.5.9",
     "mongoose": "^5.12.7",
     "next": "latest",
