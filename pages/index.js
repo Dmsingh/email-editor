@@ -70,7 +70,7 @@ const createNote = async (design) => {
       {render ? (
         <div>
           <div className="bar">
-            <h1> Email Editor (DM)</h1>
+            <h1> Email Editor</h1>
            
             
             <Link href="/edit">
