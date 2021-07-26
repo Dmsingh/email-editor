@@ -68,7 +68,7 @@ const Example = ({ note }) => {
       {render ? (
         <div>
           <div className="bar">
-            <h1>React Email Editor (Demo)</h1>
+            <h1>React Email Editor</h1>
             <Link href="/">
               <button
                 onClick={() => {
